@@ -1,0 +1,277 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: lab(95.91% -0.65 -5.13 / 0.866);
+    padding: 10px;
+}
+.container {
+    width: 100%;
+    height: 9.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: rgba(10, 13, 105, 0.973);
+    padding: 10px;
+    margin-top: 1px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.container a {
+    text-decoration: none;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container:hover, a:hover {
+    color: gold;
+    background-color: #1026b0f8;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24.5px;
+    border-radius: 20px;
+}
+.a{
+    text-decoration: none;
+    font-size: 38px;
+    animation: 0.3s ease-in-out;
+ 
+}
+#HEADER {
+     font-family: "Acme", sans-serif;
+    color: #b613b4fa;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#containing {
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    margin-bottom: 9px;
+    padding: 10px;
+    border-radius: 30px;;
+}
+#containing:hover {
+    background-color: none;
+    color: rgb(55, 255, 55);
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    font-size: 42px;
+    border-radius: 15px;
+    text-align: center;
+}
+#wrapper {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#1c91fe,#1857d6, rgba(21, 48, 154, 0.993)); 
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.Test{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgba(30, 26, 157, 0.98);
+    border-radius: none;
+    line-height: 26px;
+    padding: 100px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+.Button {
+    display: block;
+    width: auto;
+    height: 45px;
+    background-color: #e5efff;
+    color: #32429cfa;
+    border: #667dfffa solid 1px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 33px;
+    margin-bottom: 18px;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 3px 3px rgba(29, 29, 29, 0.1);
+}
+.Button:hover {
+    background-color: rgba(33, 73, 217, 0.96);
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.Date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 45.65px;;
+    margin-top: 14.5px;
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #6a9eff;
+}
+.Date:hover {
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #109fff;
+}
+.containNer{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: light;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #195add;
+}
+#btnContainer {
+    width: 30%;
+    height: auto;;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 20px;
+    border-radius: 4rem;
+    background-color: #fcfcfcde;
+}
+#btnContainer:hover{
+    background-color: #dde7ffd6;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 11, 171);
+    text-align: center;
+}
+#countLabel {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #a711a4fa;
+    font-family: helvetica;
+    cursor: pointer;
+}
+.buttons {
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: auto;
+    background-color: #4d65fff7;
+    color: yellow;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 1.45px;
+    padding: 9px 9px;
+    border: #1a3a8b 0.1rem solid;
+    font-weight: bold;
+    font-family: Arial helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 4px 3px #d6d6d6e6;
+}
+.buttons:hover{
+    background-color: #a711a4fa;
+    color: #fff;
+    font-size: 19px;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+}
+.Top a{
+    display: flex;
+    width: 100%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: line;
+    font-family: "arial black";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(88, 128, 250, 0.979);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: none;
+}
+.Top a:hover{
+    display: flex;
+    width: 100%;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: line;
+    font-family: "arial black";
+    font-size: 20.5px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #000;
+    padding: 10px 12px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer{
+    width: 100%;
+    height: 96px;
+    background-color: #981096f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 13px;
+    line-height: 11.5px;
+    bottom: 0;
+}
+.footer:hover {
+    background-color: #b416a9;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 18.25px;
+}
