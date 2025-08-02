@@ -1,0 +1,13 @@
+
+firstname = input('What is your first name ?')
+print('Hello ' + firstname + '!')
+lastname = input('What is your last name ?')
+print('Hello ' + lastname + '!')
+age = input('How old are you ?') 
+studies = input('What are you studying ?')
+print('I am studying ' + studies + '!') 
+university = input('In which university did you attend ?') 
+studies_duration = input('How long have you been studying ' + studies + ' ?')
+choice_university = input('Why did you choose ' + university + ' ?')
+loved_field = input('What is your favorite field ?')
+print('I chosed ' + university + ' because it is so famous and I love ' + loved_field + '!')
