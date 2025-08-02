@@ -7,7 +7,7 @@ header.style.fontWeight = "bold";
 header.style.textAlign = "center";
 header.style.backgroundColor = "light";
 header.style.padding = "10px";
-    header.style.marginBottom = "-2px";
+    header.style.marginBottom = "-3px";
     header.style.fontFamily = "Arial, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
    let paragraph = document.getElementById("PARA");
@@ -23,6 +23,7 @@ header.style.padding = "10px";
     paragraph.style.borderLeft = "0.5rem solid #2130b7ff";
     paragraph.style.borderRight = "0.5rem solid #2130b7ff";
     paragraph.style.height = "150px";
+    paragraph.style.marginBottom = "35px";
     //Changing dynamically the style of the button with JavaScript
     let button = document.getElementById("MTB");
     button.style.backgroundColor = "#1223c2";

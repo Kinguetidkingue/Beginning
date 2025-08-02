@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     background-color: #f2f2f2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     color: rgba(10, 13, 105, 0.973);
     padding: 10px;
@@ -30,9 +30,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container:hover, a:hover {
-    color: gold;
+    color: yellow;
     background-color: #1026b0f8;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     cursor: pointer;
     text-decoration: none;
     font-size: 24.5px;
@@ -86,9 +86,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#1c91fe,#1857d6, rgba(21, 48, 154, 0.993)); 
+    background-image: linear-gradient(#2897ff,#1a59d8fe, rgba(22, 46, 144, 0.97)); 
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .Test{
     display: flex;
@@ -98,15 +98,28 @@
     align-items: center;
     width: 100%;
     height: 250px;
-    background: #fff;
+    background-color: lab(95.91% -0.65 -5.13 / 0.866);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    color: rgba(30, 26, 157, 0.98);
-    border-radius: none;
+    color: rgba(18, 15, 126, 0.98);
+    text-align: left;
     line-height: 26px;
-    padding: 100px;
+    padding: 20px;
     margin-top: 15px;
     margin-bottom: 16px;
+}
+.PARA{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 18.5px;
+  width: 100%;
+  color: #333
+}
+.PARA:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #606060;
+    transition: color 0.3s ease-in-out;
+    font-size: 18.2px;
+    cursor: pointer;
 }
 .Button {
     display: block;
@@ -135,9 +148,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     width: 100%;
-    height: 45.65px;;
-    margin-top: 14.5px;
-    color: darkblue;
+    height: 45.5px;;
+    margin-top: 14.65px;
+    color: rgb(0, 0, 111);
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -160,7 +173,7 @@
     padding: 10px;
     text-decoration: none;
     cursor: pointer;
-    background-color: #195add;
+    background-color: #1026b0f8;
 }
 #btnContainer {
     width: 30%;
@@ -171,12 +184,13 @@
     padding: 20px;
     border-radius: 4rem;
     background-color: #fcfcfcde;
+    border: 1px solid #ffffff;
 }
 #btnContainer:hover{
-    background-color: #dde7ffd6;
+    background-color: #d9e4ffd6;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -198,24 +212,25 @@ h2 {
     align-items: center;
     width: 104px;
     height: auto;
-    background-color: #4d65fff7;
+    background-color: #465ffffc;
     color: yellow;
     border-radius: 15px;
     cursor: pointer;
-    margin: 1.45px;
+    margin: 1.25px;
     padding: 9px 9px;
-    border: #1a3a8b 0.1rem solid;
+    border: #fff 0.1rem solid;
     font-weight: bold;
     font-family: Arial helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    box-shadow: 1px 4px 3px #d6d6d6e6;
+    box-shadow: 1px 8px 3px #c9c9c9e6;
 }
 .buttons:hover{
-    background-color: #a711a4fa;
-    color: #fff;
+    background-color: #ae12acfa;
+    color: gold;
     font-size: 19px;
     transition: background-color 0.3s ease-in-out;
+    box-shadow: 1px 8px 3px #405ef5eb;
     border: none;
 }
 .Top a{
@@ -229,28 +244,26 @@ h2 {
     font-family: "arial black";
     font-size: 20px;
     font-weight: bold;
-    background-color: rgba(88, 128, 250, 0.979);
+    background-color: #405ef5eb;
     color: #fff;
     padding: 10px 12px;
-    border-radius: none;
 }
 .Top a:hover{
     display: flex;
     width: 100%;
-    height: 39px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-decoration: line;
     font-family: "arial black";
-    font-size: 20.5px;
+    font-size: 21px;
     font-weight: bold;
     background-color: transparent;
     color: #000;
     padding: 10px 12px;
     transition: background-color 0.3s ease-in-out;
 }
-
 .footer{
     width: 100%;
     height: 96px;
@@ -268,9 +281,9 @@ h2 {
     bottom: 0;
 }
 .footer:hover {
-    background-color: #b416a9;
+    background-color: #bd16b2;
     color: #fff;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
-    font-size: 18.25px;
+    font-size: 17.5px;
 }
