@@ -1,14 +1,3 @@
-# This is a simple Python script that interacts with the user to gather personal information and preferences.
-firstname = input('What is your first name ?')
-print('Hello ' + firstname + '!')
-lastname = input('What is your last name ?')
-print('Hello ' + firstname + ' ' + lastname + '!')
-age = input('How old are you ?') 
-studies = input('What are you studying ?')
-university = input('Are you attending which university ?') 
-studies_duration = input('How long have you been studying ' + studies + ' ?')
-choice_university = input('Why did you choose ' + university + ' ?')
-loved_field = input('What is your favorite field ?')
-print('I chosed ' + university + ' because it is so famous and I love ' + loved_field + '!')
-print('I am ' + age + ' years old and I love studying ' + studies + ' at ' + university + '.')
-print('Good Bye ' + firstname + ' ' + lastname + '!') 
+version https://git-lfs.github.com/spec/v1
+oid sha256:423409cac623fc5ddfa8316b920669c6c5e6ce39016c789248dc43451665c469
+size 866
