@@ -86,7 +86,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#2897ff,#1a59d8fe, rgba(22, 46, 144, 0.97)); 
+    background-image: linear-gradient(#2896fe,#1a5bddfe, rgba(22, 47, 148, 0.985)); 
     border-radius: 50%;
     margin-top: 20px;
 }
@@ -110,15 +110,15 @@
 .PARA{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  font-size: 18.5px;
+  font-size: 18.45px;
   width: 100%;
-  color: #333
+  color: rgb(60, 60, 60)
 }
 .PARA:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #606060;
+    color: #5e5e5e;
     transition: color 0.3s ease-in-out;
-    font-size: 18.2px;
+    font-size: 18.3px;
     cursor: pointer;
 }
 .Button {
