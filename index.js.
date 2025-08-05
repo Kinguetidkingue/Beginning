@@ -1,70 +1,17 @@
-function changeColor() {
-    //Changing dynamically the style of the header with JavaScript
-    let header = document.getElementById("HEADER");
-header.style.color = "green";
-header.style.fontSize = "26px";
-header.style.fontWeight = "bold";
-header.style.textAlign = "center";
-header.style.backgroundColor = "light";
-header.style.padding = "10px";
-    header.style.marginBottom = "-3px";
-    header.style.fontFamily = "Arial, sans-serif";
-    //Changing dynamically the style of the paragraph with JavaScript
-   let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "rgba(19, 55, 152, 1)";
-    paragraph.style.fontSize = "19px";
-    paragraph.style.textAlign = "left";
-    paragraph.style.backgroundColor = "light";
-    paragraph.style.padding = "7px";
-    paragraph.style.borderRadius = "0.5rem";
-    paragraph.style.fontFamily = "georgia, serif";
-    paragraph.style.lineHeight = "24px";
-    paragraph.style.wordSpacing = "2px";
-    paragraph.style.borderLeft = "0.5rem solid #2130b7ff";
-    paragraph.style.borderRight = "0.5rem solid #2130b7ff";
-    paragraph.style.height = "150px";
-    paragraph.style.marginBottom = "35px";
-    //Changing dynamically the style of the button with JavaScript
-    let button = document.getElementById("MTB");
-    button.style.backgroundColor = "#1223c2";
-    button.style.color = "#fff";
-    button.style.border = "none";
-    button.transition = "background-color 0.3s ease";
-    button.style.fontSize = "16px"; 
-    button.style.marginTop = "30px";
-}
-//Creating a counter to test the dynamism of Javascript
-const increaseBtn = document.getElementById('increaseBtn');
-const decreaseBtn = document.getElementById('decreaseBtn');
-const resetBtn = document.getElementById('resetBtn');
-const countLabel = document.getElementById('countLabel');
-let count = 0;
-increaseBtn.onclick = function(){
-count++;
-countLabel.textContent = count;
-}
-decreaseBtn.onclick = function() {
-    count--;
-    countLabel.textContent = count;
-}
-resetBtn.onclick = function(){
-    count = 0;
-    countLabel.textContent = count;
-}; console.log(count);
 
 function changeColor() {
     //Changing dynamically the style of the header with JavaScript
     let header = document.getElementById("HEADER");
-header.style.color = "green";
-header.style.fontSize = "26px";
-header.style.fontWeight = "bold";
-header.style.textAlign = "center";
-header.style.backgroundColor = "light";
-header.style.padding = "10px";
+    header.style.color = "#0b1a7eff";
+    header.style.fontSize = "26px";
+    header.style.fontWeight = "bold";
+    header.style.textAlign = "center";
+    header.style.backgroundColor = "light";
+    header.style.padding = "10px";
     header.style.marginBottom = "-3px";
     header.style.fontFamily = "Arial, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
-   let paragraph = document.getElementById("PARA");
+    let paragraph = document.getElementById("PARA");
     paragraph.style.color = "rgba(19, 55, 152, 1)";
     paragraph.style.fontSize = "19px";
     paragraph.style.textAlign = "left";
@@ -94,8 +41,8 @@ const resetBtn = document.getElementById('resetBtn');
 const countLabel = document.getElementById('countLabel');
 let count = 0;
 increaseBtn.onclick = function(){
-count++;
-countLabel.textContent = count;
+    count++;
+    countLabel.textContent = count;
 }
 decreaseBtn.onclick = function() {
     count--;
@@ -104,5 +51,6 @@ decreaseBtn.onclick = function() {
 resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
-}; console.log(count);
+};
+console.log(count);
 
