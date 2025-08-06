@@ -174,7 +174,7 @@
     padding: 10px;
     text-decoration: none;
     cursor: pointer;
-    background-color: #1026b0f8;
+    background-color: #1026b0f8;border-bottom: 0.089rem solid #fff;
 }
 #btnContainer {
     width: 30%;
