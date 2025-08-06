@@ -97,9 +97,9 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: lab(97.71% -0.56 -3.45 / 0.88);
+    background-color: lab(98.11% -0.41 -2.86 / 0.88);
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(18, 15, 126, 0.98);
+    color: rgb(14, 28, 113);
     text-align: left;
     line-height: 26px;
     padding: 20px;
@@ -111,15 +111,16 @@
 .PARA{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  font-size: 18.45px;
+  font-size: 20px;
+  line-height: 30px;
   width: 100%;
   color: rgb(60, 60, 60)
 }
 .PARA:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #5e5e5e;
+    color: #616060;
     transition: color 0.3s ease-in-out;
-    font-size: 18.3px;
+    font-size: 20.2px;
     cursor: pointer;
 }
 .Button {
