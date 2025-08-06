@@ -2,8 +2,8 @@
 function changeColor() {
     //Changing dynamically the style of the header with JavaScript
     let header = document.getElementById("HEADER");
-    header.style.color = "#179225ff";
-    header.style.fontSize = "26px";
+    header.style.color = "red";
+    header.style.fontSize = "24px";
     header.style.fontWeight = "bold";
     header.style.textAlign = "center";
     header.style.backgroundColor = "light";
@@ -12,14 +12,14 @@ function changeColor() {
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "rgba(16, 46, 128, 1)";
+    paragraph.style.color = "#102190f8";
     paragraph.style.fontSize = "23px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
     paragraph.style.padding = "7px";
     paragraph.style.fontFamily = "georgia, serif";
-    paragraph.style.lineHeight = "29px";
-    paragraph.style.wordSpacing = "2px";
+    paragraph.style.lineHeight = "32px";
+    paragraph.style.wordSpacing = "1px";
     paragraph.style.height = "150px";
     paragraph.style.marginBottom = "35px";
     //Changing dynamically the style of the button with JavaScript
@@ -29,7 +29,7 @@ function changeColor() {
     button.style.border = "none";
     button.transition = "background-color 0.3s ease";
     button.style.fontSize = "16px"; 
-    button.style.marginTop = "30px";
+    button.style.marginTop = "20px";
 }
 //Creating a counter to test the dynamism of Javascript
 const increaseBtn = document.getElementById('increaseBtn');
