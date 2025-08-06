@@ -1,19 +1,17 @@
-
 function changeColor() {
     //Changing dynamically the style of the header with JavaScript
     let header = document.getElementById("HEADER");
     header.style.color = "red";
-    header.style.fontSize = "24px";
+    header.style.fontSize = "23px";
     header.style.fontWeight = "bold";
     header.style.textAlign = "center";
     header.style.backgroundColor = "light";
     header.style.padding = "10px";
-    header.style.marginBottom = "-3px";
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
     paragraph.style.color = "#142598f8";
-    paragraph.style.fontSize = "22px";
+    paragraph.style.fontSize = "21px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
     paragraph.style.padding = "7px";
