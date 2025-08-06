@@ -12,7 +12,7 @@ function changeColor() {
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#102190f8";
+    paragraph.style.color = "#142598f8";
     paragraph.style.fontSize = "22px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
@@ -20,7 +20,7 @@ function changeColor() {
     paragraph.style.fontFamily = "helvetica, sans-serif";
     paragraph.style.lineHeight = "32px";
     paragraph.style.fontWeight = "bold";
-    paragraph.style.wordSpacing = "1px";
+    paragraph.style.wordSpacing = "0.5px";
     paragraph.style.height = "150px";
     paragraph.style.marginBottom = "35px";
     //Changing dynamically the style of the button with JavaScript
