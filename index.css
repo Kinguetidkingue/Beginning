@@ -189,6 +189,8 @@
     background-color: #fcfcfcde;
     border: 1px solid #ffffff;
     border-bottom: 1px solid transparent;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 #btnContainer:hover{
     background-color: #d9e4ffd6;
