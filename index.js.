@@ -17,7 +17,6 @@ function changeColor() {
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
     paragraph.style.padding = "7px";
-    paragraph.style.borderRadius = "0.5rem";
     paragraph.style.fontFamily = "georgia, serif";
     paragraph.style.lineHeight = "24px";
     paragraph.style.wordSpacing = "2px";
