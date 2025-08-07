@@ -193,7 +193,7 @@
     border-bottom: 0.089rem solid #fff;
 }
 #btnContainer {
-    width: 30%;
+    width: auto;
     height: auto;;
     text-align: center;
     margin-top: 1rem;
