@@ -209,7 +209,7 @@
 }
 #btnContainer:hover{
     background-color: #fcfcfcde;
-    border: 1px solid #1928d1;
+    border: 2px solid #1928d1;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
