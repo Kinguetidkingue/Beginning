@@ -202,6 +202,7 @@
     background-color: #d4edffdb;
     border: 1px solid transparent;
     border-radius: 4rem;
+    border-top: 2px solid #1928d1;
     border-bottom: 2px solid #1928d1;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -214,7 +215,7 @@
 }
 h3 {
     font-family: Helvetica;
-    color: rgb(14, 14, 174);
+    color: rgba(255, 0, 0, 0.899);
     text-align: center;
 }
 #countLabel {
