@@ -197,7 +197,6 @@
     height: auto;;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     padding: 20px;
     background-color: #d4edffdb;
     border: 1px solid transparent;
@@ -213,7 +212,7 @@
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
-h3 {
+h4 {
     font-family: Helvetica;
     color: rgba(255, 0, 0, 0.899);
     text-align: center;
