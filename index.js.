@@ -17,7 +17,6 @@ function changeColor() {
     paragraph.style.padding = "7px";
     paragraph.style.fontFamily = "helvetica, sans-serif";
     paragraph.style.lineHeight = "28px";
-    paragraph.style.fontWeight = "bold";
     paragraph.style.wordSpacing = "0.5px";
     paragraph.style.height = "150px";
     paragraph.style.marginBottom = "35px";
