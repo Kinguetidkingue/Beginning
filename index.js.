@@ -11,12 +11,12 @@ function changeColor() {
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
     paragraph.style.color = "#142598f8";
-    paragraph.style.fontSize = "20px";
+    paragraph.style.fontSize = "22px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
-    paragraph.style.padding = "7px";
+    paragraph.style.padding = "10px";
     paragraph.style.fontFamily = "helvetica, sans-serif";
-    paragraph.style.lineHeight = "28px";
+    paragraph.style.lineHeight = "29px";
     paragraph.style.wordSpacing = "0.5px";
     paragraph.style.height = "150px";
     paragraph.style.marginBottom = "35px";
