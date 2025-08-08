@@ -244,14 +244,14 @@ h4 {
     font-family: Arial helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    box-shadow: 1px 6px 3px #b4b4b4e6;
+    box-shadow: 1px 4px 3px #b4b4b4e6;
 }
 .buttons:hover{
     background-color: #ae12acfa;
     color: gold;
     font-size: 19px;
     transition: background-color 0.3s ease-in-out;
-    box-shadow: 1px 6px 3px #405ef5eb;
+    box-shadow: 1px 4px 3px #405ef5eb;
     border: none;
 }
 .Top a{
