@@ -213,9 +213,9 @@
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
-h4 {
+h5 {
     font-family: Helvetica;
-    color: rgba(255, 0, 0, 0.899);
+    color: rgba(226, 20, 20, 0.976);
     text-align: center;
 }
 #countLabel {
