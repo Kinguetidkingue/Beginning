@@ -29,7 +29,7 @@ function changeColor() {
     button.transition = "background-color 0.3s ease";
     button.style.fontSize = "16px"; 
     button.style.marginTop = "10px";
-     button.style.marginBottom = "10px";
+     button.style.marginBottom = "7px";
 }
 //Creating a counter to test the dynamism of Javascript
 const increaseBtn = document.getElementById('increaseBtn');
