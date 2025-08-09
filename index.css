@@ -214,14 +214,10 @@
     cursor: pointer;
 }
 h5 {
-   font-family: "Bitcount Prop Single", system-ui;
-    color: rgba(22, 181, 27, 0.987);
+    font-family: "Bitcount Prop Single", system-ui;
+    color: rgba(20, 186, 25, 0.968);
     text-align: center;
-    fony
-}
-font-size{ 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 #countLabel {
     display: block;
