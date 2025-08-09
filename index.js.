@@ -18,7 +18,7 @@ function changeColor() {
     paragraph.style.fontFamily = "helvetica, sans-serif";
     paragraph.style.lineHeight = "29px";
     paragraph.style.wordSpacing = "0.5px";
-    paragraph.style.height = "150px";
+    paragraph.style.height = "auto";
     paragraph.style.marginBottom = "25px";
     //Changing dynamically the style of the button with JavaScript
     let button = document.getElementById("MTB");
