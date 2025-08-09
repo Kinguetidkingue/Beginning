@@ -129,7 +129,7 @@
   line-height: 30px;
   width: 100%;
   height: auto;
-  color: rgb(32, 35, 145)
+  color: rgb(35, 39, 168)
 }
 .PARA:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -215,8 +215,13 @@
 }
 h5 {
    font-family: "Bitcount Prop Single", system-ui;
-    color: rgba(226, 20, 20, 0.976);
+    color: rgba(22, 181, 27, 0.987);
     text-align: center;
+    fony
+}
+font-size{ 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 #countLabel {
     display: block;
@@ -231,13 +236,13 @@ h5 {
 .buttons {
     justify-content: center;
     align-items: center;
-    width: 104px;
+    width: auto;
     height: auto;
     background-color: #446fe7fc;
     color: yellow;
     border-radius: 15px;
     cursor: pointer;
-    margin: 1.25px;
+    margin: 1px;
     padding: 8px 9px;
     border: #fff 0.1rem solid;
     font-weight: bold;
