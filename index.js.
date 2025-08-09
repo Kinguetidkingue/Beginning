@@ -19,6 +19,7 @@ function changeColor() {
     paragraph.style.lineHeight = "29px";
     paragraph.style.wordSpacing = "0.15px";
     paragraph.style.height = "auto";
+    paragraph.style.marginTop = "-1rem";
     paragraph.style.marginBottom = "auto";
     //Changing dynamically the style of the button with JavaScript
     let button = document.getElementById("MTB");
