@@ -138,7 +138,7 @@
     font-size: 20.04px;
     cursor: pointer;
 }
-.Button {
+#MTB {
     display: block;
     width: auto;
     height: 45px;
@@ -150,13 +150,13 @@
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s ease;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     padding: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 0 3px 3px rgba(29, 29, 29, 0.1);
 }
-.Button:hover {
+#MTB:hover {
     background-color: rgba(33, 73, 217, 0.96);
     color: #fff;
     transition: background-color 0.3s ease;
