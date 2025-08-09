@@ -10,7 +10,7 @@ function changeColor() {
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#142598f8";
+    paragraph.style.color = "#1d8312fe";
     paragraph.style.fontSize = "22px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
