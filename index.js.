@@ -10,24 +10,24 @@ function changeColor() {
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#1d8312fe";
-    paragraph.style.fontSize = "22px";
+    paragraph.style.color = "rgba(29, 124, 17, 1)";
+    paragraph.style.fontSize = "19.5px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
     paragraph.style.padding = "10px";
-    paragraph.style.fontFamily = "helvetica, sans-serif";
+    paragraph.style.fontFamily = "verdana, Geneva, Tahoma, sans-serif";
     paragraph.style.lineHeight = "29px";
-    paragraph.style.wordSpacing = "0.5px";
+    paragraph.style.wordSpacing = "0.15px";
     paragraph.style.height = "auto";
-    paragraph.style.marginBottom = "25px";
+    paragraph.style.marginBottom = "auto";
     //Changing dynamically the style of the button with JavaScript
     let button = document.getElementById("MTB");
-    button.style.backgroundColor = "#1627c0ff";
+    button.style.backgroundColor = "#1625b3ff";
     button.style.color = "#fff";
     button.style.border = "none";
     button.transition = "background-color 0.3s ease";
     button.style.fontSize = "16px"; 
-    button.style.marginTop = "20px";
+    button.style.marginTop = "10px";
 }
 //Creating a counter to test the dynamism of Javascript
 const increaseBtn = document.getElementById('increaseBtn');
