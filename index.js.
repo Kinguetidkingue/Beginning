@@ -1,5 +1,5 @@
+//Changing dynamically the style of the header with JavaScript
 function changeColor () {
-    //Changing dynamically the style of the header with JavaScript
     let header = document.getElementById("HEADER");
     header.style.color = "red";
     header.style.fontSize = "23px";
@@ -10,16 +10,17 @@ function changeColor () {
     header.style.fontFamily = "Arial black, sans-serif";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#142598f8";
-    paragraph.style.fontSize = "22px";
+    paragraph.style.color = "#1f7c0fff";
+    paragraph.style.fontSize = "19px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
     paragraph.style.padding = "10px";
-    paragraph.style.fontFamily = "helvetica, sans-serif";
+    paragraph.style.fontFamily = "verdana";
     paragraph.style.lineHeight = "29px";
     paragraph.style.wordSpacing = "0.5px";
     paragraph.style.height = "150px";
-    paragraph.style.marginBottom = "25px";
+    paragraph.style.marginTop = "-1rem";
+    paragraph.style.marginBottom = "auto";
     //Changing dynamically the style of the button with JavaScript
     let button = document.getElementById("MTB");
     button.style.backgroundColor = "#1627c0ff";
@@ -28,6 +29,8 @@ function changeColor () {
     button.transition = "background-color 0.3s ease";
     button.style.fontSize = "16px"; 
     button.style.marginTop = "20px";
+    button.style.marginBottom = "7px";
+
 }
 //Creating a counter to test the dynamism of Javascript
 const increaseBtn = document.getElementById('increaseBtn');
@@ -47,5 +50,5 @@ resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
 };
-console.log(count);
+console.log(count)
 
