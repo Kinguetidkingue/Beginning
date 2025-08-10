@@ -18,7 +18,7 @@ function changeColor () {
     paragraph.style.fontFamily = "verdana";
     paragraph.style.lineHeight = "29px";
     paragraph.style.wordSpacing = "0.5px";
-    paragraph.style.height = "150px";
+    paragraph.style.height = "auto";
     paragraph.style.marginTop = "-1rem";
     paragraph.style.marginBottom = "auto";
     //Changing dynamically the style of the button with JavaScript
