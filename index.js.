@@ -1,4 +1,3 @@
-//This is the main JavaScript file for the web page
 function changeColor () {
     let header = document.getElementById("HEADER");
     header.style.color = "red";
