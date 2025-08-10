@@ -1,4 +1,4 @@
-//Changing dynamically the style of the header with JavaScript
+//This is the main JavaScript file for the web page
 function changeColor () {
     let header = document.getElementById("HEADER");
     header.style.color = "red";
@@ -42,7 +42,7 @@ increaseBtn.onclick = function(){
     count++;
     countLabel.textContent = count;
 }
-decreaseBtn.onclick = function() {
+decreaseBtn.onclick = function(){
     count--;
     countLabel.textContent = count;
 }
@@ -50,5 +50,5 @@ resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
 };
-console.log(count)
+console.log(count);
 
