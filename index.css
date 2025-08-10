@@ -133,9 +133,9 @@
 }
 .PARA:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #646464;
+    color: #0e2396;
     transition: color 0.3s ease-in-out;
-    font-size: 20.15px;
+    font-size: 20px;
     cursor: pointer;
 }
 .Button {
@@ -215,7 +215,7 @@
 }
 h5 {
     font-family: Helvetica;
-    color: rgba(226, 20, 20, 0.976);
+    color: rgba(61, 185, 17, 0.976);
     text-align: center;
 }
 #countLabel {
