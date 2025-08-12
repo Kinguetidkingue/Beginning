@@ -9,12 +9,12 @@
 }
 .container {
     width: 100%;
-    height: auto;
+    height: 60px;
     display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
@@ -80,7 +80,7 @@
     color: green;
     font-size: 60px;
     border: none;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
 }
 .Paragraph:hover {
     background-color: none;
@@ -98,7 +98,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(#2a98ff,#195adcfe, rgba(19, 45, 148, 0.967)); 
+    background-image: linear-gradient(#369eff,#185de5fe, rgba(21, 49, 159, 0.967)); 
     border-radius: 50%;
     margin-top: 3rem;
 }
