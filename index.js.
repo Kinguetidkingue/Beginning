@@ -10,11 +10,11 @@ function changeColor () {
     //Changing the background of the div with JavaScript
     let div = document.getElementById("Testo");
     div.style.backgroundColor = "#fff";
-    div.style.borderTop = "0.11rem solid #1a79deff";
-    div.style.borderBottom = "0.11rem solid #1a79deff";
+    div.style.borderTop = "0.09rem solid #187ae3ff";
+    div.style.borderBottom = "0.09rem solid #1a79deff";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#1b7b09ff";
+    paragraph.style.color = "#1f8a0cff";
     paragraph.style.fontSize = "20px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
