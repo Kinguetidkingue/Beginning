@@ -1,7 +1,7 @@
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
@@ -77,14 +77,14 @@
     align-items: center;
     text-align: center;
     font-family: "Luckiest Guy", cursive;
-    color: #fff;
+    color: green;
     font-size: 60px;
     border: none;
-    margin-bottom: 15px;
+    margin-top: 6rem;
 }
 .Paragraph:hover {
     background-color: none;
-    color: rgb(55, 255, 55);
+    color: rgb(151, 22, 116);
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     font-size: 45px;
@@ -100,8 +100,7 @@
     justify-content: center;
     background-image: linear-gradient(#2a98ff,#195adcfe, rgba(19, 45, 148, 0.967)); 
     border-radius: 50%;
-    margin-top: 4.6rem;
-    padding: 2rem;
+    margin-top: 3rem;
 }
 .Test{
     display: flex;
@@ -201,7 +200,7 @@
     background-color: #d4edffdb;
     border: 1px solid transparent;
     border-radius: 4rem;
-    border: 2px solid #1928d1;
+    border: 2px solid #1a79deff;
     margin-top: 5rem;
     margin-bottom: 5rem;
     
