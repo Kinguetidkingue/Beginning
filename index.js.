@@ -10,11 +10,11 @@ function changeColor () {
     //Changing the background of the div with JavaScript
     let div = document.getElementById("Testo");
     div.style.backgroundColor = "#fff";
-    div.style.borderTop = "0.1rem dashed #187ae3ff";
-    div.style.borderBottom = "0.1rem dashed #187ae3ff";
+    div.style.borderTop = "0.11rem dashed #187ae3ff";
+    div.style.borderBottom = "0.11rem dashed #187ae3ff";
     //Changing dynamically the style of the paragraph with JavaScript
     let paragraph = document.getElementById("PARA");
-    paragraph.style.color = "#1f8a0cff";
+    paragraph.style.color = "green";
     paragraph.style.fontSize = "20px";
     paragraph.style.textAlign = "left";
     paragraph.style.backgroundColor = "light";
@@ -34,7 +34,6 @@ function changeColor () {
     button.style.fontSize = "16px"; 
     button.style.marginTop = "10px";
     button.style.marginBottom = "7px";
-
 }
 //Creating a counter to test the dynamism of Javascript
 const increaseBtn = document.getElementById('increaseBtn');
