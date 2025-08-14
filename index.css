@@ -42,7 +42,6 @@
     text-decoration: none;
     font-size: 38px;
     animation: 0.3s ease-in-out;
- 
 }
 #HEADER {
      font-family: "Acme", sans-serif;
@@ -207,13 +206,13 @@
 }
 #btnContainer:hover{
     background-color: #fcfcfcde;
-    border: 2px solid #1928d1;
+    border: 2px solid 687rrrrt#1928d1;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
 h5 {
     font-family: Helvetica;
-    color: rgba(61, 185, 17, 0.976);
+    color: red;
     text-align: center;
 }
 #countLabel {
