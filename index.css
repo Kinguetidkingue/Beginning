@@ -50,26 +50,17 @@ ul li a {
     font-family: helvetica;
     font-size: 20px;
 }
-.nav-link:hover{
+.navbar .nav-link:hover{
     color: #ff0 !important;
     text-decoration: none;
-    font-weight: bold;
+   
     transition: background-color 0.3s ease-in-out;
-}
-.navbar {
-    background-color: #28a745 !important;
 }
 .navbar:hover {
     background-color: rgba(147, 22, 97, 0.995) !important;
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
-.navbar-brand:hover,.a:hover{
-    color: darkblue !important;
-    font-family: helvetica;
-    font-size: 20px;
-}
-
 .navbar-toggler-icon {
     width: 30px;
     padding: 5px;
