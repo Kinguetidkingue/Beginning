@@ -1,104 +1,185 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link to stylesheet (CSS)-->
-    <link rel="stylesheet" href="index.css">
+    <!--Link to stylesheet (CSS) file-->
+    <link rel="stylesheet" href="indexo.css">
      <!--Link to the javascript file-->
-    <script type="module" src="index.js."></script>
+    <script type="module" src="indexo.js."></script>
+    <!--Link to bootstrap-5-css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!--Link to access to bootstrap 5-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <!--Link to Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Special+Elite&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Link to bootstrap-5-js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<!--Links to google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Acme&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-   <!--The title is right below--> 
-<title>The Beginning</title>
+    <title>GaB & TecH Consulting</title>
 </head>
-<a id="Top"></a>
 
-<body> 
-    <!--A wrapper for the date-->
-     <div class="containNer">
-        <a href="https://www.timeanddate.com/calendar/" target="_blank"> 
-            <p class="Date">Today is: <span id="currentDate">
-            <!-- The current date will be displayed here -->
-            <script>
-                let currentDate = new Date();
-                let options = { year: 'numeric', month: 'long', day: 'numeric' };
-                document.getElementById('currentDate').textContent = currentDate.toLocaleDateString('en-US', options);
-                console.log(currentDate.toLocaleDateString('en-US', options));
-            </script>
-        </span>
-                </p>
-            </a>
-    </div>
-    <div class="main">
-        <div class="Welcome">
-            <a href="https://dictionary.cambridge.org/fr/dictionnaire/anglais/welcome" target="blank"><p class ="Paragraph">Welcome !</p></a>
+<!--The top of the page-->
+<a id="TOP"></a>
+
+<!--The navigation bar-->
+<nav class=" navbar navbar-expand-lg navbar-light bg-primary" id="NavBar">
+    <div class="container-fluid">
+        <a class="navbar-brand" id="Logo" style="font-family: Oswald" sans-serif; href="#"><b>GaB & TecH</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" id="Link" style="color: cyan; font-size: 22px" aria-current="page" href="https://kinguetidkingue.github.io/Beginning/" target="_blank"><b>HOME</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="#">HTML Basics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="#">CSS Basics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="#">Connect To JS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="https://www.britannica.com/place/Burkina-Faso" target="blank"><b>Burkina Faso</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="Link" href="#">Support</a>
+                </li>
+            </ul>
         </div>
-   
-    <!--Here a wrapping block to contain and maintain the header and the others following blocks (divs) coded like some  <ul> and <li> tabs-->
-    <div class="container" id="wrapper">
-     <a href ="https://www.merriam-webster.com/dictionary/welcome" target="_blank">
-<div class="containing" id="containing">
-    </div></a>
-<!--Creating some blocks and linking them as a <ul> and <li> tabs-->
-    <a href="https://renew.org/why-are-we-here/" target="_blank"> <div class="container" style="margin-bottom: 10px"> We are here because we deserve to be here.</div></a>
-    <a href="https://www.britannica.com/place/Burkina-Faso" target="_blank"> <div class="container" style="margin-bottom: 10px">It is time to go back home and reconnect with people. </div></a>
-    <a href="https://ccrw.org/dwc-initiative/" target="_blank"> <div class="container"style="margin-bottom: 10px">No worries. I have already challenged such kind of issues.</div></a>
-    <a href="https://kristenboehmer.com/5345/" target="_blank"> <div class="container" style="margin-bottom: 10px">It is little by little that we can make a brighter and sure future.</div></a>
-    <a href="https://www.merriam-webster.com/thesaurus/interference" target="_blank"> <div class="container" style="margin-bottom: 10px">The president has made it clear he will accept zero interference.</div></a>
-    <a href="https://www.uottawa.ca/en" target="_blank"> <div class="container" style="margin-bottom: 10px;">We are studying and then relaying knowledges to our progeniture</div></a>
+    </div>
+</nav>
+<!--End of the navigation bar-->
+
+<!--The body of the page-->
+<body>
+    <div class="container-fluid" id="wrapper">
+    <div class="container shadow-lg" id="K">
+        <div class="row">
+            <div class="col-12 text-center bg-light p-3 shadow-sm">
+<img src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg" style="width: 50%; height: 110px; margin-top: -20px;" alt="HTML Image" class="img-fluid mt-3 mb-3">
+    </div>
+        <div class="col-md-12 text-justify bg-light p-3 mb-10 shadow-sm">
+            <a class="hover" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><h2 class="text-danger text-center fs-2 fw-bolder"><em>What Is HTML ?</em></h2></a>
+         <p class="text-dark lh-sm-4 p-4 fs-5" id="Paragra">HTML is a markup language used to create the structure of web pages.
+            It stands for <a class="text-primary fs-5" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HyperText Markup Language</a> and is the backbone of web development. HTML is first created by a British computer scientist whose name is <a class="text-primary fs-5" href="https://www.w3.org/People/Berners-Lee/" target="_blank">Tim Berneers Lee</a> in 1991 while working 
+            for the <a class="text-primary fs-5" href="https://home.cern/" target="_blank">CERN</a>, the European Organization of Nuclear Research based in Geneva [Switzerland]. The first official version was HTML1.0 released in 1994. This version has led the foundation of the World Wide Web famously known as W.W.W.
+        </p>
+    </div>
+        </div>
+    </div>
+
+<div class="container" id="K">
+    <div class="row">
+        <div class="col-6 mt-10">
+            <a class="hover" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements" target="_blank"><h2 class="text-danger text-center fw-bolder rounded-4 p-2 mb-3 mt-5 border-bottom border-5 shadow-sm" id="Paragra"><em>HTML Elements</em></h2></a>
+            <p class="text-secondary lh-sm-2 fs-5">HTML consists of various elements that define the structure and content of a web page. 
+            These elements are represented by tags, which are enclosed in angle brackets. 
+            <br>Building a simple webpage reqieres to use the following tags: </p>
+            <ol class="text-primary fs-6 fw-bolder">
+            <li>The DOCUMENT Type self-closing tag => &lt;!DOCTYPE HTML&gt;</li>
+            <li>The HTML pair of opening and closing tags => &lt;html&gt; &amp; &lt;/html&gt;</html></code></li>
+            <li>The HEAD pair of opening and closing tags => &lt;head&gt; &amp; &lt;/head&gt;</li>
+            <li>The TITLE pair of opening and closing tags => &lt;title&gt; &amp; &lt;/title&gt;</li>
+            <li>The BODY pair of opening and closing tags => &lt;body&gt; &amp; &lt;/body&gt;</li>
+            </ol>
+            <p class="text-success fs-4 fw-bolder lh-sm-1">Basically these elements are written like following: 
+<pre><code>
+    <ul class="text-danger fs-5 fw-bolder">
+    <li>&lt;!doctype html&gt;</li>
+    <li>&lt;html&gt;</li><li>&lt;/html&gt;</li>
+    <li>&lt;head&gt;</li><li>&lt;/head&gt;</li>
+    <li>&lt;title&gt;</li><li>&lt;/title&gt;</li>
+    <li>&lt;body&gt;</li><li>&lt;/body&gt;</li>
+   </ul>
+</code></pre>
+</p>
+            <p class="text-dark lh-sm fs-6 fw-bolder"><em>Some tags are made by a pair of opening and closing tags, while others are self-closing. 
+            HTML elements can contain text, images, links, and other media.</em></p>
+            <p class="text-secondary lh-sm-2 fs-5">HTML elements are the building blocks of web pages. 
+            They define the structure and content of a webpage, allowing developers to create headings, paragraphs, links, images, lists, and more. 
+            Each element is represented by a tag, which is enclosed in angle brackets (e.g., &lt;tag&gt;). 
+            HTML elements can also have attributes that provide additional information about the element.</p>
+    </div>
+
+        <div class="col-6 mt-10">
+            <a class="hover" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes" target="_blank"><h2 class="text-danger text-center fs-2 fw-bolder rounded-4 p-2 mb-3 border-bottom border-5 mt-5 shadow-sm" id="Paragra"><em>HTML Attributes</em></h2></a>
+            <p class="text-secondary fs-5">Attributes provide additional information about HTML elements. 
+            They are used to specify properties such as the source of an image, the destination of a link, or the style of an element.</p>
+        </div>
+    </div>
+
+    <div class="container" id="K">
+     <a class="hover" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content" target="_blank"><h2 class="col-7 text-danger text-center fw-bolder lh sm-2 rounded-4 p-2 mb-3 mt-5 border-bottom border-5 shadow-sm" id="Paragra"><em>How To Process And Progress with HTML ?</em></h2></a>
+     <p class="text-dark fs-6 fw-bolder">Learning HTML effectively is important to master your knowledge. Start with the basics and gradually 
+        <br>build your knowledge. Here are some steps to help you progress. By the way you can also learn from 
+        <br>others resources but the following ones will help you:</p>
+        <ol class="text-secondary fs-5">
+            <li>Understand the basic structure of an HTML document.</li>
+            <li>Learn about common HTML elements and their usage.</li>
+            <li>Practice creating simple web pages using HTML.</li>
+            <li>Explore advanced topics such as forms, tables, and multimedia elements.</li>
+            <li>Experiment with different attributes to enhance your HTML elements.</li>
+        </ol>
+        <p class="text-secondary lh-sm-2 fs-5 fw-bolder">Remember to practice regularly and refer to online resources, tutorials, 
+            <br>and documentation to deepen your understanding of HTML.</p>
+    </div>
+
+    <div class="container" id="K">
+        <div class="row">
+            <div class="col-9 text-secondary rounded-2 fs-3 fw-bolder">
+        HTML & CSS | Basic Resources for Web Development
+        </div>
+        </div>
+    </div>
+    
+    <div class="container" id="K">
+        <div class="row">
+            <div class="col-md-6 mt-3">
+                <h2 class="text-info fs-3 fw-bolder">HTML Resources</h2>
+                <ul class="text-secondary fs-5">
+                    <li><a class="text-primary fs-5" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+                    <li><a class="text-primary fs-5" href="https://html.com/" target="_blank">HTML.com - Learn HTML</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5" target="_blank">freeCodeCamp - Basic HTML and HTML5</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                <h2 class="text-info fs-3 fw-bolder">CSS Resources</h2>
+                <ul class="text-secondary fs-5">
+                    <li><a class="text-primary fs-5" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS Tutorial</a></li>
+                    <li><a class="text-primary fs-5" href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-css" target="_blank">freeCodeCamp - Basic CSS</a></li>
+                    <li><a class="text-primary fs-5" href="https://www.codecademy.com/learn/learn-css" target="_blank">Learn CSS with codeacademy</a></li>
+                   </ul> 
 </div>
-    <!--Here a block-div to explain the GetElementById in the Document Object Model Tree (DOM)-->
-    <div class="Test" id="Testo">
-        <button class="Button" id="MTB" onclick="changeColor()">Change the style</button>
-        <h2 id="HEADER">GetElementById in the DOM Tree</h2>
-        <p class="PARA" id="PARA">What is the most important thing you have to do when you are studying in I-Tech and need to achieve ? Obviously you have to like and embrace the field.
-            That can be a motivating booster for your dream even you still have to hard-working and may chose to specialize on a specific field and master it well. 
-            Speciliazation is very important because it will take you into a sure, wider and judicious job market around the world. 
-            Fields of studies includes programming, data security, software engineering, online apps creation, social medias platforms, cloud, AI and so on.
-         Secondly after the studies you have to start looking for job by sending applications. But you also have to look around your own connections including your family and friends in order to get hired for working.  
-        </p>
-     </div>
-     <!--Creating a counter with HTML, CSS, and Javascript-->
-    <div id="btnContainer">
-        <h5><b>Play with the buttons</b></h5>
-        <label id="countLabel">0</label>
-<button id="decreaseBtn" onclick="decrease()"class="buttons">Decrease</button>
-<button id="resetBtn" onclick="reset()" class="buttons">Reset</button>
-<button id="increaseBtn" onclick="increase()"class="buttons">Increase</button>
-   </div>
-  </div>
+</div>
+</div>
+</div>
+</div>
+<!--End of the body of the page-->
 
-  <!--Javascript for a dynamic purpose to taking in count the scripts-->
-   <script src="index.js."></script>
-
-<!---Getthe beginning of the page-->
-<div class="Top"><a href="#Top"id="UNICODE" >GO TO TOP</a></div>
-
-   <!--The footer starts here-->
-    <footer class="footer">
-        <p> © 2025 GABY COMPAORE [Self Made Man]
-            <br><br>
-            * Disability Is Not Destiny *
-        </p>
-        <p class="footer-text">All rights reserved.</p>
-    </footer>
+    <!--Button to go to the top of the page-->
+   <a href="#TOP" class="btn btn-primary fs-6 fw-bold rounded-5 position-fixed bottom-0 end-0 m-3" style="z-index: 1000;">GO TO TOP
+    
+</a>
+    <!--The footer of the page-->
+<div class="footer bg-danger fw-bold" id="footer" >
+        <p>Copyright  © GaB & TecH August 2025</p>
+        <p> All Rights Reserved | Disability Is Not Destiny</p>
+    </div>
 </body>
-</html> 
-
+</html>
