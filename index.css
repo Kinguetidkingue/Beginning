@@ -1,307 +1,133 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    background-image: linear-gradient(rgba(166, 193, 255, 0.903), #fcfcfc);
+* {
+    box-sizing: border-box;
 }
-.container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    color: rgba(10, 13, 105, 0.973);
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
-.container a {
+.hover{
     text-decoration: none;
-    color: yellow;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid transparent;
+    color: inherit;
 }
-.container:hover, a:hover {
-    color: yellow;
-    background-color: #1026b0f8;
-    transition: background-color 0.2s ease-in-out;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 24.5px;
-    border-radius: 20px;
-}
-.a{
-    text-decoration: none;
-    font-size: 38px;
-    animation: 0.3s ease-in-out;
-}
-#HEADER {
-     font-family: "Acme", sans-serif;
-    color: #b613b4fa;
-    font-size: 27px;
+.hover:hover {
+    color: blue;
+    text-decoration: underline;
     font-weight: bold;
-    text-align: center;
-}
-#containing {
-    width: 100%;
-    height: 80px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Luckiest Guy", cursive;
-    color: #fff;
-    font-size: 40px;
-    border: none;
-    margin-bottom: 9px;
-    padding: 10px;
-    border-radius: 30px;;
-}
-.Paragraph {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Luckiest Guy", cursive;
-    color: green;
-    font-size: 60px;
-    border: none;
-    margin-top: 5.5rem;
-}
-.Paragraph:hover {
-    background-color: none;
-    color: rgb(151, 22, 116);
-    transition: all 0.25s ease-in-out;
-    cursor: pointer;
-    font-size: 45px;
-    border-radius: 15px;
-    text-align: center;
-}
-#wrapper {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(#369eff,#185de5fe, rgba(21, 49, 159, 0.967)); 
-    border-radius: 50%;
-    margin-top: 3rem;
-}
-.Test{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    background-color: lab(99.61% -0.15 -0.6 / 0.949);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(14, 28, 113);
-    text-align: left;
-    line-height: 28px;
-    padding: 20px;
-    margin-top: 10rem;
-    margin-bottom: 16px;
-    margin-left: 0;
-    margin-right: 0;
-}
-.PARA{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 28px;
-  width: 100%;
-  height: auto;
-  color: #0e2396;
-}
-.PARA:hover {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(74, 74, 74);
-    transition: color 0.3s ease-in-out;
-    font-size: 20px;
-    cursor: pointer;
-}
-.Button {
-    display: block;
-    width: auto;
-    height: 45px;
-    background-color: #e5efff;
-    color: #32429cfa;
-    border: #667dfffa solid 1px;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    margin-bottom: 18px;
-    padding: 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 0 3px 3px rgba(29, 29, 29, 0.1);
-}
-.Button:hover {
-    background-color: rgba(33, 73, 217, 0.96);
-    color: #fff;
-    transition: background-color 0.3s ease;
-}
-.Date {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    width: 100%;
-    height: 45.5px;;
-    margin-top: 14.65px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration-line: none;
-    padding: 10px;
-    background-color: red;
-} 
-.Date:hover {
-    color: #000;
-    transition: background-color 0.3s ease-in-out;
-    background-color: yellow;
-}
-.containNer{
-    width: 100%;
-    height: 45.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: light;
-    padding: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #1026b0f8;
-    border-bottom: 0.089rem solid #fff;
-}
-#btnContainer {
-    width: auto;
-    height: auto;;
-    text-align: center;
-    padding: 20px;
-    background-color: #ddf1ffdb;
-    border: 1px solid transparent;
-    border-radius: 4rem;
-    border: 0.1rem solid #187ae3ff;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    
-}
-#btnContainer:hover{
-    background-color: #fcfcfcde;
-    border: 2px solid 687rrrrt#1928d1;
-    transition: background-color 0.3s ease-in-out;
-    cursor: pointer;
-}
-h5 {
-    font-family: Helvetica;
-    color: red;
-    text-align: center;
-}
-#countLabel {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    font-size: 5rem;
-    font-weight: bold;
-    color: #a711a4fa;
     font-family: helvetica;
-    cursor: pointer;
-}
-.buttons {
-    justify-content: center;
-    align-items: center;
-    width: 104px;
-    height: auto;
-    background-color: #465ffffc;
-    color: yellow;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 1.25px;
-    padding: 9px 9px;
-    border: #000 0.1rem solid;
-    font-weight: bold;
-    font-family: Arial helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 1px 4px 3px #b4b4b4e6;
-}
-.buttons:hover{
-    background-color: #ae12acfa;
-    color: gold;
-    font-size: 19px;
-    transition: background-color 0.3s ease-in-out;
-    box-shadow: 1px 4px 3px #405ef5eb;
-    border: none;
-}
-.Top a{
-    display: flex;
-    width: 100%;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: line;
-    font-family: "arial black";
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #1040cffc;
-    color: #fff;
-    padding: 10px 12px;
-}
-.Top a:hover{
-    display: flex;
-    width: 100%;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: line;
-    font-family: "arial black";
     font-size: 21px;
-    font-weight: bold;
-    background-color: transparent;
-    color: #000;
-    padding: 10px 12px;
-    transition: background-color 0.3s ease-in-out;
-}
-.footer{
-    width: 100%;
-    height: 96px;
-    background-color: #9b1299;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: yellow;
-    font-size: 17px;
-    text-align: center;
-    padding-top: 13px;
-    line-height: 11.5px;
-    bottom: 0;
-}
-.footer:hover {
-    background-color: #a813a5;
-    color: #fff;
-    transition: background-color 0.3s ease-in-out;
-    font-size: 17.25px;
+    transition: color 0.3s ease-in-out;
 }
 
+#wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: light;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    margin-left: 25px;
+}
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 38px;
+    width: 100%;
+    height: 40px;
+    color: #4f4f4f;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+}
+#Link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 21px;
+    width: 100%;
+    height: auto;
+    transition: color 0.3s ease-in-out;
+}
+#Link:hover{
+    width: 100%;
+    height: auto;
+    color: #ff0;
+    text-decoration: none; 
+    font-size: 21px;
+    transition: color 0.3s ease-in-out;
+}
+#K{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+#Logo {
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    background: rgb(255, 68, 68);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 48%;
+    border-top-left-radius: 48%;
+    color: #ff0;
+    border-top: 0.2rem solid #fff; 
+    border-bottom: 0.13rem solid #fff;
+    transition: color 0.3s ease-in-out;
+}
+#Logo:hover{
+    background: rgb(255, 255, 12);
+    border-top: 0.2rem solid rgb(250, 250, 3); 
+    border-bottom: 0.15rem solid rgb(250, 250, 3);
+    transition: color 0.3s ease-in-out;
+    font-family: 'arial black';
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'arial black';
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+} 
+.footer{
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 10px;
+    line-height: 19px;
+}
+.footer:hover{
+    color: #ff0;
+    cursor: pointer;
+    font-size: 20.20px;
+    transition: color 0.3s ease-in-out;
+}
