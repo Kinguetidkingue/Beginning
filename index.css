@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
 }
@@ -31,6 +30,7 @@ a {
     color: #fff;
 }
 .navbar a:hover{
+    color: #ff0;
     text-decoration: underline solid red;
     font-weight: bold;
     font-family: helvetica;
@@ -59,13 +59,14 @@ ul li a {
     transition: background-color 0.3s ease-in-out;
 }
 ul li a:hover {
-    border-bottom: 0.67rem solid rgb(55, 138, 255);
+    color: #ff0;
+    border-bottom: 0.64rem solid rgb(55, 138, 255);
     text-decoration: none;
     font-size: 30px;
     width: 100%;
     height: 43px;
     font-weight: bold;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     transition: background-color 0.3s ease-in-out;
 }
 .navbar-toggler-icon {
