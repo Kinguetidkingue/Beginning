@@ -74,6 +74,7 @@ ul li a:hover {
     height: auto;
 }
 .footer{
+    display: block;
     width: 100%;
     height: auto;
     justify-content: center;
@@ -83,8 +84,8 @@ ul li a:hover {
     font-size: 20px;
     color: #fff;
     margin-top: 2rem;
-    padding: 10px;
-    line-height: auto;
+    padding: 15px;
+    line-height: 20px;
 }
 .footer:hover{
     color: #ff0;
