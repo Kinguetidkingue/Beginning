@@ -75,7 +75,18 @@
 .text-center {
     text-align: center!important;
 }
-
+@media (min-width: 1200px) {
+.fs-2 {
+    font-size: 2rem!important;
+}
+}
+.text-danger {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important;
+}
+.fw-bolder {
+    font-weight: bolder!important;
+}
 .p-3 {
     padding: 1rem!important;
 }
@@ -93,7 +104,8 @@
 body {
     display: block;
     padding: 0;
-    font-family: "Noto Sans Mono", monospace !important;
+    font-family: "consolas", monospace !important;
+    --bs-body-line-height: 1.5;
 }
 .bg-light {
     --bs-bg-opacity: 1;
