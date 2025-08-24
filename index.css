@@ -110,7 +110,7 @@ a {
 }
 
 body {
-    font-family: "consolas", monospace !important;
+    font-family: "Noto Sans Mono", monospace !important;
     --bs-body-line-height: 1.5;
 }
 .bg-light {
@@ -147,7 +147,7 @@ ul {
 }
 ul li {
     display: inline-block;
-    margin-left: 28px;
+    margin-left: 25px;
 }
 ul li a {
     display: inline-block;
